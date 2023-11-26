@@ -11,3 +11,5 @@ Este é o repositório para o projeto final da disciplina de DevOps e QA. O proj
 - Núbia Stanquini de Paula
 
 Este repositório inclui pipelines de integração contínua usando Jenkins, testes automatizados, e scripts para implantação em ambientes de desenvolvimento, homologação e produção. A aplicação é construída e testada automaticamente como parte do processo de integração contínua, proporcionando uma abordagem robusta para o desenvolvimento e entrega de software.
+
+https://www.youtube.com/watch?v=8r_662E-VuI
