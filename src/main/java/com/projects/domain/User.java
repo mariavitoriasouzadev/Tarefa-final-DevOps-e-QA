@@ -7,13 +7,24 @@ import javax.persistence.Id;
 
 @Entity
 public class User {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String username;
-    private String email;
 
-    // Construtores, getters e setters
+    private String name;
+
+    // Construtor padrão
+    public User() {
+    }
+
+    // Construtor com parâmetros
+    public User(Long id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
+    // Getters e setters
 
     public Long getId() {
         return id;
@@ -23,19 +34,11 @@ public class User {
         this.id = id;
     }
 
-    public String getUsername() {
-        return username;
+    public String getName() {
+        return name;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
+    public void setName(String name) {
+        this.name = name;
     }
 }
